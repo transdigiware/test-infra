@@ -35,7 +35,7 @@ RUN curl -o installer https://sdk.cloud.google.com && \
 
 
 # Stage 2
-FROM alpine:3.12.0
+FROM alpine:3.12
 
 # Google Cloud SDK requires python 2.7.9+ (https://cloud.google.com/python/setup#installing_the_cloud_sdk).
 # update_summaries.sh requires bash.
